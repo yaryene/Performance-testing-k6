@@ -1,0 +1,13 @@
+{
+  "name": "performancetesting",
+  "version": "1.0.0",
+  "description": "this is k6 scripts exampes",
+  "main": "index.js",
+  "scripts": {
+    "test:staging": "k6 run -e TARGET_ENV=staging tests/member-login.test.js",
+    "test:prod": "k6 run -e TARGET_ENV=production tests/member-login.test.js",
+    "test:local": "k6 run -e TARGET_ENV=local tests/member-login.test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
