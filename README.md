@@ -17,9 +17,6 @@ Run
   - Run a quick single-request smoke with k6:
     `k6 run --vus 1 --iterations 1 tests/member-login.test.js`
 
-Quick one-liner to hit the working login endpoint:
-`k6 run --vus 1 --iterations 1 -- <(cat <<'JS'\nimport http from 'k6/http';\nexport default function(){ http.post('https://qaapisuperapp.cbe.com.et/api/v1/cbesuperapp/member_auth/login', JSON.stringify({pin:'331000'}), {headers:{'Content-Type':'application/json'}}); }\nJS`)
-
 Notes
 - Control active environment with `TARGET_ENV` (default `staging`). Example:
   `TARGET_ENV=staging npm run test:staging`
