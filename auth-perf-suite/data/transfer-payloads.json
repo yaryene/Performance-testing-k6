@@ -1,0 +1,26 @@
+[
+    {
+        "service_code": "CBE",
+        "service_key": "cbe_to_cbe",
+        "debit_account": "1000184556344",
+        "debit_currency": "ETB",
+        "debit_amount": 100.0,
+        "session_data": {
+            "critical_value": "1000295551465",
+            "type": "account_number",
+            "reason": "load-test-cbe"
+        }
+    },
+    {
+        "service_code": "CBE",
+        "service_key": "cbe_to_cbe",
+        "debit_account": "1000184556344",
+        "debit_currency": "ETB",
+        "debit_amount": 50.0,
+        "session_data": {
+            "critical_value": "1000181611158",
+            "type": "account_number",
+            "reason": "load-test-cbe"
+        }
+    }
+]
